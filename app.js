@@ -25,5 +25,5 @@ app.get("/goodbye", (req,res) => {
 });
 
 app.get("/lunch", (req,res) => {
-    res.send("<p>Let's go eat lunch, I'm <strong>starving!</strong></p>");
+    res.send("<p style=color:red;>Let's go eat lunch, I'm <strong>starving!</strong></p>");
 });
