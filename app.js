@@ -19,7 +19,7 @@ app.get("/hello", (req,res) => {
     res.send("<h1>Hello from Express!</h1>");
 });
 
-// GET, or a response when someone goes to http://localhost:3000/hello
+// GET, or a response when someone goes to http://localhost:3000/goodbye
 app.get("/goodbye", (req,res) => {
     res.send("<h1>Goodbye from Express :-(</h1>");
 });
