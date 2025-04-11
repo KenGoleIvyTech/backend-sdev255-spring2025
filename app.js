@@ -2,10 +2,11 @@
 const express = require("express");
 // activate or tell this app variable to be an express server
 const app = express();
+const port = 3000;
 
 // start the web server
-app.listen(3000, () => {
-    console.log("Listening on port 3000");
+app.listen(port, () => {
+    console.log(`Listening on port ${port}`);
 });
 
 // Making an API using routes
