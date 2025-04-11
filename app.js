@@ -1,7 +1,10 @@
 // setup
 const express = require("express");
+var cors = require("cors");
 // activate or tell this app variable to be an express server
 const app = express();
+// We have to use cors in order to host a frontend and backend on the same device
+app.use(cors());
 const router = express.Router();
 const port = 3000;
 
